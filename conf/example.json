@@ -1,0 +1,33 @@
+{
+  "location_parameters":
+  [
+    {
+      "url1": "protocol1://host1/path1",
+      "url2": "protocol1://host1/path2",
+      "user": "soda_user",
+      "password": "soda_password",
+      "latitude": "46.027267",
+      "longitude": "8.960885",
+      "altitude": "343",
+      "duration": "15",
+      "time": "TU",
+      "slope": "45",
+      "azimuth": "180",
+      "albedo": "0.2",
+      "horizon": "1",
+      "soda_db": "HC3v4",
+      "output_folder": "data",
+      "output_csv_file_header": "Mordor",
+      "influxdb_connection": {
+                                "data_inserting": "enabled",
+                                "host": "host.example.com",
+                                "port": "8086",
+                                "user": "influx_user",
+                                "password": "influxdb_pwd",
+                                "db": "influxdb_database",
+                                "measurement": "influxdb_measurement",
+                                "time_precision": "s"
+                              }
+    }
+  ]
+}

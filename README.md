@@ -14,5 +14,5 @@ Tested only with Python3.
 
 **Usage:**
 <pre>
-/usr/bin/python getter.py -c conf/supsi.json
+/usr/bin/python getter.py -c conf/example.json
 </pre>

@@ -1,7 +1,9 @@
 # soda-similarity-data-getter
 Script to get data from Similarity forecast service of SoDa (http://www.soda-pro.com/soda-products/hc3-similarity-forecast)
 
-It saves data in csv file or (optional) on an InfluxDB database (https://www.influxdata.com/). 
+It gathers the forecasts from several locations and save data in csv files (one for location). Optionally, the forecasts can be stored in an InfluxDB database (https://www.influxdata.com/). 
+
+Tested only with Python3.
 
 **Requirements:**
 * Python>=3.5.2
